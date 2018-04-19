@@ -1,0 +1,14 @@
+<article class="mdc-card post">
+  <section class="mdc-card__primary">
+    <div class="post__avatar"></div>
+    <h1 class="mdc-card__title mdc-card__title--large">{{ .Title }}</h1>
+    <h2 class="mdc-card__subtitle">{{ .Description }}</h2>
+    {{ .Content }}
+  </section>
+  <section class="mdc-card__supporting-text">
+    <span>{{ .Date }}</span>
+  </section>
+  <section class="mdc-card__actions">
+    <button class="mdc-button mdc-button--compact mdc-card__action">Send Money</button>
+  </section>
+</article>

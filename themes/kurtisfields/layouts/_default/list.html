@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+{{- range first 10 .Data.Pages }}
+  {{ partial "postcard.html" . }}
+{{ end }}
+
+<script>
+document.body.className += ' svgbackground'
+</script>
+
+{{ partial "footer.html" . }}

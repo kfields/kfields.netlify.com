@@ -1,0 +1,36 @@
+# Save changes to GitHub
+backend:
+  name: github
+  repo: kfields/kfields.netlify.com
+  branch: master
+
+# Use the Editorial workflow - https://github.com/netlify/netlify-cms/blob/master/docs/editorial_workflow.md
+publish_mode: editorial_workflow
+
+# Save image uploads to /assets/uploads - https://gohugo.io/themes/creation/#static
+media_folder: "static/assets/uploads"
+public_folder: "/assets/uploads"
+
+# Collections
+collections: # A list of collections the CMS should be able to edit
+  # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "post"
+    # Used in the UI, ie.: "New Post"
+    label: "Post"
+    # The path to the folder where the documents are stored
+    folder: "content/post"
+    # Allow users to create new documents in this collection
+    create: true
+    # Filename template e.g. YYYY-MM-DD-title.md
+    slug: "{{slug}}"
+    # The fields each document in this collection have
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      # Use required: false instead of optional: true - https://github.com/netlify/netlify-cms/issues/315
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta:
+      - {label: "Date", name: "date", widget: "datetime"}
+# Does not currently work, see https://github.com/netlify/netlify-cms/issues/248
+#      - {label: "Tags", name: "tags", widget: "list"}
+#      - {label: "Categories", name: "categories", widget: "list"}

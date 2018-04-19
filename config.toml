@@ -1,0 +1,12 @@
+theme = "kurtisfields"
+baseurl = "http://kfields.netlify.com"
+languageCode = "en-us"
+title = "Kurtis Fields"
+
+[[menu.main]]
+  name = "Services"
+  url = "/services/"
+
+[[menu.main]]
+  name = "Fees"
+  url = "/fees/"

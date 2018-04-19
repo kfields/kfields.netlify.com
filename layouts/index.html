@@ -1,0 +1,7 @@
+{{ partial "header.html" . }}
+
+{{ range where .Site.Pages "Section" "post" }}
+  {{ partial "postcard.html" . }}
+{{ end }}
+
+{{ partial "footer.html" . }}
