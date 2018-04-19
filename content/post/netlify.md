@@ -1,7 +1,5 @@
 ---
-title: "Netlify"
-date: 2017-07-16T16:55:07-04:00
-draft: false
-description: "Freemium Static Site Hosting"
+title: Netlify
+description: Freemium Static Site Hosting
 ---
-Article about Netlify
+Netlify is an awesome static hosting provider.  Be sure to check out their CMS integration!!!
