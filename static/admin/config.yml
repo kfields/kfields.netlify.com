@@ -26,9 +26,9 @@ collections: # A list of collections the CMS should be able to edit
     # The fields each document in this collection have
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      # Use required: false instead of optional: true - https://github.com/netlify/netlify-cms/issues/315
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
     meta:
       - {label: "Date", name: "date", widget: "datetime"}
 # Does not currently work, see https://github.com/netlify/netlify-cms/issues/248
