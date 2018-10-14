@@ -2,12 +2,12 @@
   <section class="mdc-card__primary">
     <div class="postcard__avatar"></div>
     <h1 class="mdc-card__title mdc-card__title--large"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-    <h2 class="mdc-card__subtitle">{{ .Description }}</h2>
-  </section>
-  <section class="mdc-card__supporting-text">
-    <span>{{ .Date }}</span>
+    <h2 class="mdc-card__subtitle">
+      <span style="color:dimgrey">{{ .Date.Format "January 2, 2006" }} -- </span>
+      {{ .Description }}
+    </h2>
   </section>
   <section class="mdc-card__actions">
-    <button class="mdc-button mdc-button--compact mdc-card__action">Read More</button>
+    <a href="{{ .Permalink }}"><button class="mdc-button mdc-button--compact mdc-card__action">Read More</button></a>
   </section>
 </div>
