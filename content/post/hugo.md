@@ -1,7 +1,6 @@
 ---
-title: "Hugo"
-date: 2017-07-16T16:53:21-04:00
-draft: false
-description: "Static Site Generator written in Google's Go Language"
+title: Hugo
+description: Static Site Generator written in Google's Go Language
+date: 2017-07-16T20:53:21.000Z
 ---
-Article about Hugo
+[Hugo](https://gohugo.io/) is a blazing fast static site generator written in [the Go programming language](https://golang.org/).
