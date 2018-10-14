@@ -1,5 +1,5 @@
 theme = "kurtisfields"
-baseurl = "http://kfields.netlify.com"
+baseurl = "https://kfields.netlify.com"
 languageCode = "en-us"
 title = "Kurtis Fields"
 
