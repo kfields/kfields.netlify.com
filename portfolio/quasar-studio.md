@@ -2,7 +2,7 @@
 title: "Quasar Studio"
 date: 2018-09-15 07:42:34
 description: Quasar Electron Codemirror IDE
-cover: "https://i.imgur.com/S8eaSMh.jpg"
+cover: "https://i.imgur.com/uxizfUS.png"
 slug: "quasar-studio"
 category: ""
 tags:

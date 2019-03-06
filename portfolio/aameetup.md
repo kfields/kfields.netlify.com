@@ -1,13 +1,13 @@
 ---
-title: "Gridlify"
+title: "AA Meetup"
 date: 2018-09-15 07:42:34
-description: Gridlify = Gridsome + Netlify CMS
-cover: "https://i.imgur.com/YBcRZqO.png"
-slug: "gridlify"
+description: AA Meeting finder for southeast Michigan
+cover: "https://i.imgur.com/46mb9I5.png"
+slug: "aa-meetup"
 category: ""
 tags:
-  - Gridsome
-  - Netlify CMS
+  - Sobriety
+  - Website
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.

@@ -1,13 +1,12 @@
 ---
-title: "Gridlify"
+title: "Bad News Bearers"
 date: 2018-09-15 07:42:34
-description: Gridlify = Gridsome + Netlify CMS
-cover: "https://i.imgur.com/YBcRZqO.png"
-slug: "gridlify"
+description: Process service website
+cover: "https://i.imgur.com/HkiuTHm.png"
+slug: "bad-news-bearers"
 category: ""
 tags:
-  - Gridsome
-  - Netlify CMS
+  - Website
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.

@@ -2,7 +2,7 @@
 title: "Quasar Tiptap Demo"
 date: 2018-09-15 07:42:34
 description: Demonstration of the Tiptap editor using Quasar
-cover: "https://i.imgur.com/S8eaSMh.jpg"
+cover: "https://i.imgur.com/cJ6qKPo.png"
 slug: "quasar-tiptap-demo"
 category: ""
 tags:
