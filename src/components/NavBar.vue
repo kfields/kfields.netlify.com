@@ -23,6 +23,7 @@
 
       <div id="navbarBasicExample" class="navbar-menu" ref="navMenu">
         <div class="navbar-start">
+          <g-link class="navbar-item" to="/portfolio">Portfolio</g-link>
           <g-link class="navbar-item" to="/about">About</g-link>
           <g-link class="navbar-item" to="/contact">Contact</g-link>
           <hr class="navbar-divider">
@@ -31,7 +32,7 @@
 
         <div class="navbar-end">
           <div class="navbar-item">
-            <a href="https://github.com/kfields/kfields.netlify.com">
+            <a href="https://github.com/kfields">
               <v-icon name="brands/github" scale="2"/>
             </a>
           </div>

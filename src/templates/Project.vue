@@ -1,11 +1,11 @@
 <template>
   <Layout>
     <article>
-      <g-image class="heroImage" :alt="$page.post.title" :src="$page.post.cover"/>
+      <g-image class="heroImage" :alt="$page.project.title" :src="$page.project.cover"/>
       <div class="section">
         <div>
-          <h1>{{$page.post.title}}</h1>
-          <p style="display: block">{{$page.post.date}}</p>
+          <h1>{{$page.project.title}}</h1>
+          <p style="display: block">{{$page.project.date}}</p>
         </div>
         <div v-html="markdown"/>
       </div>
@@ -14,8 +14,8 @@
 </template>
 
 <page-query>
-  query BlogPost ($path: String!) {
-    post (path: $path) {
+  query Project ($path: String!) {
+    project (path: $path) {
       title
       date (format: "D MMMM, YYYY")
       content
@@ -27,7 +27,7 @@
 <script>
 import marked from "marked";
 export default {
-  name: "Post",
+  name: "Project",
   // props: [''],
   // components: {},
   data() {
@@ -37,12 +37,12 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.post.title,
-      meta: [{ name: "description", content: this.$page.post.description }]
+      title: this.$page.project.title,
+      meta: [{ name: "description", content: this.$page.project.description }]
     };
   },
   mounted: function() {
-    this.markdown = marked(this.$page.post.content);
+    this.markdown = marked(this.$page.project.content);
   }
 };
 </script>

@@ -7,7 +7,8 @@ import NavBar from '~/components/NavBar.vue'
 import FootBar from '~/components/FootBar.vue'
 import ArticlePreview from '~/components/ArticlePreview.vue'
 import Articles from '~/components/Articles.vue'
-//import SimpleIcon from '~/components/SimpleIcon.vue'
+import ProjectPreview from '~/components/ProjectPreview.vue'
+import Projects from '~/components/Projects.vue'
 import Fluid from '~/components/Fluid.vue'
 import Icon from 'vue-awesome/components/Icon'
 
@@ -55,6 +56,8 @@ export default function (Vue, context) {
   Vue.component('FootBar', FootBar)
   Vue.component('ArticlePreview', ArticlePreview)
   Vue.component('Articles', Articles)
+  Vue.component('ProjectPreview', ProjectPreview)
+  Vue.component('Projects', Projects)
   //Vue.component('SimpleIcon', SimpleIcon)
   Vue.component('v-icon', Icon)
   Vue.component('Fluid', Fluid)
