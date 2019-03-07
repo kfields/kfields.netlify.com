@@ -1,9 +1,6 @@
 <template>
   <div class="hero-banner">
-    <div class="">
-      <h1>KFields</h1>
-      <i>Supercharge your site</i>
-    </div>
+    <slot/>
   </div>
 </template>
 <script>

@@ -1,11 +1,11 @@
 <template>
   <header>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <g-link class="navbar-item" to="/">
           <img alt class="nav-logo" src="/logos/logo-circle-normal.svg">
           <span style="font-size: 1.5em">KFields</span>
-        </a>
+        </g-link>
         
         <a
           role="button"
@@ -31,11 +31,9 @@
         </div>
 
         <div class="navbar-end">
-          <div class="navbar-item">
-            <a href="https://github.com/kfields">
+            <a class="navbar-item" href="https://github.com/kfields">
               <v-icon name="brands/github" scale="2"/>
             </a>
-          </div>
         </div>
       </div>
     </nav>
@@ -78,17 +76,17 @@ export default {
 };
 </script>
 <style lang="scss">
-/*
-.navbar {
-  background-color: #222222;
+.navbar, .navbar-menu.is-active {
+  background-color: #18453B;
   color: #ffffff;
   margin-bottom: 1em;
 }
-.navbar a {
+
+a.navbar-item {
   color: #ffffff;
 }
-.navbar a:hover {
-  color: #aaaaaa;
+a.navbar-item:hover {
+  color: #18453B;
+  // background-color: #ffffff;
 }
-*/
 </style>

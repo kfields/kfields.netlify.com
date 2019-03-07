@@ -1,6 +1,10 @@
 <template>
   <Layout>
-    <HeroBanner/>
+    <HeroBanner>
+      <h1>Hi,</h1>
+      <p>My name is Kurtis Fields</p>
+      <p>Here are some of my favorite projects</p>
+    </HeroBanner>
     <main>
       <Projects/>
     </main>
