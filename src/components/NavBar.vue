@@ -23,7 +23,7 @@
 
       <div id="navbarBasicExample" class="navbar-menu" ref="navMenu">
         <div class="navbar-start">
-          <g-link class="navbar-item" to="/portfolio">Portfolio</g-link>
+          <g-link class="navbar-item" to="/blog">Blog</g-link>
           <g-link class="navbar-item" to="/about">About</g-link>
           <g-link class="navbar-item" to="/contact">Contact</g-link>
           <hr class="navbar-divider">

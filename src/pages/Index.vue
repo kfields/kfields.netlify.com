@@ -1,8 +1,8 @@
 <template>
   <Layout>
-    <!-- <HeroBanner/> -->
+    <HeroBanner/>
     <main>
-      <Articles/>
+      <Projects/>
     </main>
   </Layout>
 </template>
@@ -14,14 +14,14 @@ export default {
     HeroBanner
   },
   mounted () {
-    // console.log('Index.vue')
+    // console.log('Portfolio.vue')
     // console.log(this)
   },
   metaInfo() {
     return {
-      title: 'Home',
+      title: 'Portfolio',
       meta: [
-        { name: 'description', content: 'Home' }
+        { name: 'description', content: 'Portfolio' }
       ]
     }
   }

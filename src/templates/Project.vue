@@ -5,7 +5,7 @@
       <div class="section">
         <div>
           <h1>{{$page.project.title}}</h1>
-          <p style="display: block">{{$page.project.date}}</p>
+          <!-- <p style="display: block">{{$page.project.date}}</p> -->
         </div>
         <div v-html="markdown" class="markdown-body"/>
       </div>
