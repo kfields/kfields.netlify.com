@@ -1,9 +1,7 @@
 <template>
   <div class="preview">
     <g-link :to="`/blog/${article.slug}`" >
-      <div class="previewImage">
-        <g-image :alt="article.title" :src="article.cover"/>
-      </div>
+      <g-image class="previewImage" :alt="article.title" :src="article.cover"/>
       <div class="previewTitle">
         {{article.title}}
       </div>
@@ -44,6 +42,12 @@ export default {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  /*
+  border-radius: 5%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eeeeee;
+  */
 }
 
 .previewDate {

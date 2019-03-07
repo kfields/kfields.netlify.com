@@ -11,9 +11,9 @@
         {{article.description}}
       <p/>
     </g-link>
-    <div class="previewDate">
+    <!-- <div class="previewDate">
       <small class="previewDate">{{article.date}}</small>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>

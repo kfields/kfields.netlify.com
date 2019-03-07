@@ -7,7 +7,7 @@
           <h1>{{$page.project.title}}</h1>
           <p style="display: block">{{$page.project.date}}</p>
         </div>
-        <div v-html="markdown"/>
+        <div v-html="markdown" class="markdown-body"/>
       </div>
     </article>
   </Layout>
@@ -43,10 +43,30 @@ export default {
   },
   mounted: function() {
     this.markdown = marked(this.$page.project.content);
+    /*
+    const renderer = new marked.Renderer()
+
+    renderer.heading = function (text, level) {
+      var escapedText = text.toLowerCase().replace(/[^\w]+/g, '-')
+
+      return `
+              <h${level}>
+                <a name="${escapedText}" class="anchor" href="#${escapedText}">
+                  <span class="header-link"></span>
+                </a>
+                ${text}
+              </h${level}>`
+    }
+    this.markdown = marked(this.$page.project.content, { renderer: renderer })
+    */
   }
-};
+}
 </script>
-<style>
+<style lang="scss">
+span.icon {
+  // visibility: hidden;
+  margin-left: -24px;
+}
 article ul {
   list-style: disc inside;
   margin-bottom: 1rem;
@@ -54,5 +74,4 @@ article ul {
 article ul li {
   margin-bottom: 1rem;
 }
-
 </style>

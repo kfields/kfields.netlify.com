@@ -77,3 +77,18 @@ export default {
   }
 };
 </script>
+<style lang="scss">
+/*
+.navbar {
+  background-color: #222222;
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+.navbar a {
+  color: #ffffff;
+}
+.navbar a:hover {
+  color: #aaaaaa;
+}
+*/
+</style>
