@@ -79,7 +79,7 @@ export default {
 .navbar, .navbar-menu.is-active {
   background-color: #18453B;
   color: #ffffff;
-  margin-bottom: 1em;
+  // margin-bottom: 1em;
 }
 
 a.navbar-item {
