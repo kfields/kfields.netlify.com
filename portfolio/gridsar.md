@@ -2,7 +2,7 @@
 title: "Gridsar"
 date: 2018-09-15 07:42:34
 description: Gridsar = Gridsome + Quasar
-cover: "https://i.imgur.com/CBzkMad.png"
+cover: "https://i.imgur.com/B8GTHP9.png"
 slug: "gridsar"
 category: ""
 tags:

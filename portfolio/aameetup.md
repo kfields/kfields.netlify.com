@@ -2,7 +2,7 @@
 title: "AA Meetup"
 date: 2018-09-15 07:42:34
 description: AA Meeting finder for southeast Michigan
-cover: "https://i.imgur.com/46mb9I5.png"
+cover: "https://i.imgur.com/lANtdLE.png"
 slug: "aa-meetup"
 category: ""
 tags:

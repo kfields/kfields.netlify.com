@@ -2,7 +2,7 @@
 title: "Gridful"
 date: 2018-09-15 07:42:34
 description: Gridful = Gridsome + Contentful
-cover: "https://i.imgur.com/JEiowXJ.png"
+cover: "https://i.imgur.com/zK47fdk.png"
 slug: "gridful"
 category: ""
 tags:
