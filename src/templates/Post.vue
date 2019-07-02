@@ -7,7 +7,7 @@
           <h1>{{$page.post.title}}</h1>
           <p style="display: block">{{$page.post.date}}</p>
         </div>
-        <div v-html="markdown"/>
+        <div v-html="markdown" class="darkdown-body"/>
       </div>
     </article>
   </Layout>

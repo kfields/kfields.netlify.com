@@ -1,12 +1,10 @@
 <template>
   <Layout>
     <HeroBanner>
-      <h1>Hi,</h1>
-      <p>My name is Kurtis Fields</p>
-      <p>Here are some of my favorite projects</p>
+      <h1>Hi</h1>
     </HeroBanner>
     <main>
-      <Projects/>
+      <Articles/>
     </main>
   </Layout>
 </template>
@@ -18,14 +16,12 @@ export default {
     HeroBanner
   },
   mounted () {
-    // console.log('Portfolio.vue')
-    // console.log(this)
   },
   metaInfo() {
     return {
-      title: 'Portfolio',
+      title: 'Kurtis Fields',
       meta: [
-        { name: 'description', content: 'Portfolio' }
+        { name: 'description', content: 'Web Developer' }
       ]
     }
   }

@@ -2,8 +2,10 @@
   <header>
     <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
+        <a class="navbar-item" href="https://github.com/kfields">
+          <v-icon name="brands/github" scale="2"/>
+        </a>
         <g-link class="navbar-item" to="/">
-          <img alt class="nav-logo" src="/logos/logo-circle-normal.svg">
           <span style="font-size: 1.5em">KFields</span>
         </g-link>
         
@@ -24,17 +26,19 @@
       <div id="navbarBasicExample" class="navbar-menu" ref="navMenu">
         <div class="navbar-start">
           <g-link class="navbar-item" to="/blog">Blog</g-link>
+          <g-link class="navbar-item" to="/projects">Projects</g-link>
           <g-link class="navbar-item" to="/about">About</g-link>
           <g-link class="navbar-item" to="/contact">Contact</g-link>
           <hr class="navbar-divider">
           <a class="navbar-item" href="https://github.com/kfields/kfields.netlify.com/issues">Report an issue</a>
         </div>
-
+        <!--
         <div class="navbar-end">
             <a class="navbar-item" href="https://github.com/kfields">
               <v-icon name="brands/github" scale="2"/>
             </a>
         </div>
+        -->
       </div>
     </nav>
   </header>

@@ -18,8 +18,6 @@ export default {
   /*padding: 5vmin 0;*/
   // padding: 0 0 2vmin 0;
   padding: 1em;
-  color: white;
-  background-color: #18453B;
   text-align: center;
   font-size: 1.2em;
   /*

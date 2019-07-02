@@ -8,5 +8,6 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 </style>

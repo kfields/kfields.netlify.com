@@ -1,6 +1,6 @@
 <template>
   <div class="preview">
-    <g-link :to="`/portfolio/${article.slug}`" >
+    <g-link :to="`/projects/${article.slug}`" >
       <div class="previewImage">
         <g-image :alt="article.title" :src="article.cover"/>
       </div>

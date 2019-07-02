@@ -3,7 +3,7 @@ module.exports = {
   "globPatterns": [
     "**/*.{html,css,js,png,svg,json}"
   ],
-  globIgnores: ['blog/**'],
+  globIgnores: ['blog/**', 'projects/**'],
   "swDest": "dist/sw.js",
   "swSrc": "./src/pwa/worker.js"
 };

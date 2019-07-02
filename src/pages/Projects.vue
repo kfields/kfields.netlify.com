@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <!-- <HeroBanner/> -->
+    <HeroBanner>
+      <h1>Projects</h1>
+    </HeroBanner>
     <main>
       <Projects/>
     </main>
@@ -19,9 +21,9 @@ export default {
   },
   metaInfo() {
     return {
-      title: 'Portfolio',
+      title: 'Projects',
       meta: [
-        { name: 'description', content: 'Portfolio' }
+        { name: 'description', content: 'Projects' }
       ]
     }
   }

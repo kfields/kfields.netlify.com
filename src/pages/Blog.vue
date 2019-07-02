@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <!-- <HeroBanner/> -->
+    <HeroBanner>
+      <h1>Blog</h1>
+    </HeroBanner>
     <main>
       <Articles/>
     </main>

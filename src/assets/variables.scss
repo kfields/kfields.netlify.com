@@ -1,8 +1,13 @@
 // Set your colors
-//$primary: #8c67ef;
-//$primary-invert: findColorInvert($primary);
+$primary: #141618;
+$primary-invert: findColorInvert($primary);
+
 $msu-green: #18453B;
 $msu-green-invert: findColorInvert($msu-green);
+
+$neon-green: #39ff14;
+$magenta: magenta;
+$magenta-invert: findColorInvert($magenta);
 
 $twitter: #4099FF;
 $twitter-invert: findColorInvert($twitter);
@@ -13,7 +18,7 @@ $colors: (
     "black": ($black, $white),
     "light": ($light, $light-invert),
     "dark": ($dark, $dark-invert),
-    "primary": ($msu-green, $msu-green-invert),
+    "primary": ($primary, $primary-invert),
     "info": ($info, $info-invert),
     "success": ($success, $success-invert),
     "warning": ($warning, $warning-invert),
@@ -21,11 +26,16 @@ $colors: (
     "twitter": ($twitter, $twitter-invert)
 );
 
+$family-sans-serif: 'Poppins', sans-serif;
+
+$body-background-color: $primary;
+$body-color: white;
+$footer-background-color: $primary;
 // Links
-// $link: $primary;
-$link: $black;
-// $link-invert: $primary-invert;
-$link-invert: $primary;
+$text: white;
+$link: #dcdbdb;
+$link-invert: $magenta-invert;
+$link-hover: white;
 //$link-focus-border: $primary;
 $link-focus-border: $black;
 //
