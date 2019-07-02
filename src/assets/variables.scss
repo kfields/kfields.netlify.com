@@ -2,6 +2,9 @@
 $primary: #141618;
 $primary-invert: findColorInvert($primary);
 
+$success: #18453B;
+$success-invert: findColorInvert($success);
+
 $msu-green: #18453B;
 $msu-green-invert: findColorInvert($msu-green);
 
@@ -40,3 +43,5 @@ $link-hover: white;
 $link-focus-border: $black;
 //
 $variable-columns: false;
+
+$label-color: white;
