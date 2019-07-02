@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <HeroBanner>
-      <h1>Hi</h1>
+      <h1>Code, Jam, Repeat</h1>
     </HeroBanner>
     <main>
       <Articles/>
