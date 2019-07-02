@@ -7,4 +7,7 @@ slug: "hello-world"
 category: ""
 ---
 
-Hi!  I'm not much of a writer so bear with me :)
+Hi!  This is my new developer blog implemented with Gridsome, Buefy & Netlify.
+
+
+Stay tuned ...
