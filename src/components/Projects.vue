@@ -1,6 +1,6 @@
 <template>
   <div class="section">
-    <ul class="article-list">
+    <ul class="project-list">
       <li v-for="edge in $static.posts.edges" :key="edge.id">
         <ProjectPreview :article="edge.node" />
       </li>

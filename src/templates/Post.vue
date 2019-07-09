@@ -1,7 +1,9 @@
 <template>
   <Layout>
     <article>
+      <!--
       <g-image class="heroImage" :alt="$page.post.title" :src="$page.post.cover"/>
+      -->
       <div class="section">
         <div>
           <h1>{{$page.post.title}}</h1>

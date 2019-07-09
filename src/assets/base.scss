@@ -47,10 +47,23 @@ main .section:last-child {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.article-list li {
+  border-bottom: 1px solid #444444
+}
+.article-list li:last-child {
+  border-bottom: none
+}
+.project-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 5vmin;
 }
+
 
 .list-inline {
   margin: 0;

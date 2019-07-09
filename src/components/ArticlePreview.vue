@@ -1,7 +1,9 @@
 <template>
   <div class="preview">
     <g-link :to="`/blog/${article.slug}`" >
+      <!--
       <g-image class="previewImage" :alt="article.title" :src="article.cover"/>
+      -->
       <div class="previewTitle">
         {{article.title}}
       </div>
@@ -9,9 +11,11 @@
         {{article.description}}
       <p/>
     </g-link>
+    <!--
     <div class="previewDate">
       <small class="previewDate">{{article.date}}</small>
     </div>
+    -->
   </div>
 </template>
 <script>
