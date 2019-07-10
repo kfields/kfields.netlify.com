@@ -7,7 +7,7 @@
       <div class="previewTitle">
         {{article.title}}
       </div>
-      <p>
+      <p class="previewSummary">
         {{article.description}}
       <p/>
     </g-link>
@@ -39,6 +39,9 @@ export default {
   margin-top: .5rem;
   margin-bottom: .5rem;
   // line-height: 1rem;
+}
+.previewSummary {
+  color:#A0A0A0
 }
 .previewImage {
   max-height: 200px;

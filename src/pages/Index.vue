@@ -63,7 +63,11 @@ export default {
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 1223px) {
   .landing-main {
+    // padding-left: 1em;
+  }
+  .landing-heading {
     padding-left: 1em;
+    transform: none;
   }
   .landing-title {
     transform: none;

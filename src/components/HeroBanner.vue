@@ -17,7 +17,7 @@ export default {
   // margin: 0 auto;
   /*padding: 5vmin 0;*/
   // padding: 0 0 2vmin 0;
-  padding: 1em;
+  padding-top: 1em;
   text-align: center;
   font-size: 1.2em;
   /*
