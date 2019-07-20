@@ -71,17 +71,7 @@ class GridsomeWorkbox {
    * @param  {Object} options.config
    * @param  {Array}  options.queue
    */
-  async beforeRenderHTML ({ context, config, queue }) {
-    /*
-    console.log('gridsome-seo')
-    console.log('context')
-    console.log(context)
-    // console.log('config')
-    // console.log(config)
-    console.log('queue')
-    console.log(queue)
-    */
-  }
+  async beforeRenderHTML ({ context, config, queue }) {}
 
   /**
    * Called before build.

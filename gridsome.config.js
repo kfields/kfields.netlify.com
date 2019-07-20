@@ -69,8 +69,8 @@ module.exports = {
         short_name: 'KFields',
         description: 'KFields Developer',
         start_url: '.',
-        background_color: '#000000',
-        theme_color: '#000000',
+        background_color: '#ffffff',
+        theme_color: '#18453B', //MSU Green
         crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
         fingerprints: false,
         icons: [

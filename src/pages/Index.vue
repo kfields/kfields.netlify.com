@@ -4,15 +4,15 @@
       <h1>Code, Jam, Repeat</h1>
     </HeroBanner>
     <main class="landing-main">
-      <div class="columns">
-      <div class="column">
-        <div class="landing-heading">
-          <div class="landing-title">Latest Posts</div>
+      <div class="columns is-gapless">
+        <div class="column">
+          <div class="landing-heading">
+            <div class="landing-title">Latest Posts</div>
+          </div>
         </div>
-      </div>
-      <div class="column is-four-fifths">
-        <Articles/>
-      </div>
+        <div class="column is-four-fifths">
+          <Articles/>
+        </div>
       </div>
     </main>
   </Layout>
