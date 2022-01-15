@@ -13,7 +13,7 @@
     "buefy": "^0.7.8",
     "dotenv": "^6.2.0",
     "gridsome": "^0.4.7",
-    "marked": "^0.6.3",
+    "marked": "^4.0.10",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "simple-icons": "^1.10.0",
